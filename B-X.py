@@ -15,6 +15,19 @@ press_space()
 print('[*] 3, 2, 1')
 time.sleep(2.05)
 
-for i in range(29):
+a = 0.19222
+for i in range(23):
     press_space()
-    time.sleep(0.198888)
+    time.sleep(a)
+
+for i in range(3):
+    press_space()
+    time.sleep(a/2)
+
+for i in range(5):
+    press_space()
+    time.sleep(a)
+
+for i in range(2):
+    press_space()
+    time.sleep(a*2)
